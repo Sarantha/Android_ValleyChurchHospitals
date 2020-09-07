@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">HospitalApp</string>
+    <string name="name">Valley Church Hospitals</string>
+
+    <!-- Sign In Screen -->
+    <string name="useremail">Email</string>
+    <string name="userpassword">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signin_botton">Login</string>
+    <string name="donthaveaccount">Dont have an account yet? </string>
+    <string name="signupnow">Sign Up Now!</string>
+
+    <!-- Sign Up Screen -->
+    <string name="fullname">Full Name</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="contactnumber">contact Number</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+
+    <!-- dashboard -->
+    <string name="dashboardMainTitle">Valley Church Hospitals</string>
+    <string name="underMainTitile">Caring For Your Health Above All</string>
+    <string name="AppointmentandDoctors">Appointment and Doctors</string>
+    <string name="Personal">Personal Preferences</string>
+    <string name="Settings">Settings</string>
+    <string name="about">About</string>
+    <string name="MyAppointmentsandPrescription">My Appointments and Prescriptions</string>
+    <string name="BookAppointments">Book Appointment</string>
+    <string name="AvailableDoctors">Doctors</string>
+    <string name="MyAppointments">My Appointments</string>
+    <string name="Prescriptions">Prescriptions</string>
+
+    <string name="description">Valley Church Hospitals is the most accredited hospital in the uva province with a view to deliver healthcare that is on par with global medical standards. </string>
+
+    <!--- Doctors Screen -->
+    <string name="DoctorsandSpecialists">Doctors And Specialists</string>
+
+    <!--- Information Screen -->
+    <string name="Instructions">Instructions on Appointments</string>
+    <string name="inst1">Check the available dates of the doctors</string>
+    <string name="inst2">Once your appointment is placed, reception office will contact you</string>
+    <string name="inst3">Payments for the appointment should be done in cash to the front office</string>
+    <string name="settings">Settings</string>
+    <string name="setting1">Your details are shown in the Settings window. You can use the settings window to change your login password. If your password is forgotten you can change it using the email</string>
+    <string name="service">Trusted Service</string>
+    <string name="call">24/7 On Call</string>
+    <string name="reports">On Time Reports</string>
+
+    <!-- Appointment-Book -->
+    <string name="Name">Name</string>
+    <string name="selectDoctor">Select Your Doctor</string>
+    <string name="dateAppointment">Date of Appointment</string>
+    <string name="dateBooked">Appointment Booked on</string>
+    <string name="appointmentButton">Book Appointment</string>
+    <string name="appointmentDescription">Time of your appointment will be inform by the reception via call, if not contact Valley Church Hospitals via 057 0000000 or if you have any inquiries</string>
+
+</resources>

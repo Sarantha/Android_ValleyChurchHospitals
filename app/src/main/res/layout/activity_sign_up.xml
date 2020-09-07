@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:background="@drawable/backdesign"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:src="@drawable/logo"
+        android:paddingTop="15dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:textColor="@color/signin"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <EditText
+            android:layout_marginTop="25dp"
+            android:id="@+id/userfullnanme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fullname">
+        </EditText>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/emailaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/emailaddress">
+        </EditText>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/contactnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contactnumber"
+            android:inputType="number">
+        </EditText>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword">
+        </EditText>
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progress"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/signin"
+            android:visibility="gone"
+            tools:targetApi="LOLLIPOP">
+        </androidx.core.widget.ContentLoadingProgressBar>
+
+        <Button
+            android:id="@+id/RegisterBtn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:background="@color/signin"
+            android:text="@string/signup"
+            android:textColor="@color/signin_button"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

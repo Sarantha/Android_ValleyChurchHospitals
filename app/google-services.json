@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "90557711114",
+    "firebase_url": "https://hospitalapp-f5749.firebaseio.com",
+    "project_id": "hospitalapp-f5749",
+    "storage_bucket": "hospitalapp-f5749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90557711114:android:f82add48d75c5f028a30f3",
+        "android_client_info": {
+          "package_name": "com.industrialmaster.hospitalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90557711114-f6ltm3ps8o4ohm2phvfrj4up9tdk9aru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.industrialmaster.hospitalapp",
+            "certificate_hash": "0646cea474297c70f6ba72d659ec94b585395d17"
+          }
+        },
+        {
+          "client_id": "90557711114-pmgqnh832edhtqraenpl91fb9rnqll4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnW65WsPMmyDKbFnfqhXOltnfmjFiB-N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90557711114-pmgqnh832edhtqraenpl91fb9rnqll4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

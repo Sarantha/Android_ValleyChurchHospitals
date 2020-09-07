@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/headerBackground"
+        android:layout_height="190dp"
+        android:background="@color/signin"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/profile"
+            android:id="@+id/profilePic"
+            android:layout_gravity="center_horizontal"></de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/signin_button"
+            android:text="Profile Display Name"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:id="@+id/profileName"></TextView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/design">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/email"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_email">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/signin_button"
+                        android:text="ssmahadoowage@gmail.com"
+                        android:gravity="center"
+                        android:id="@+id/userEmailDisplay"
+                        ></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/phone"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_contact_phone">
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/signin_button"
+                        android:text="0713585633"
+                        android:gravity="center"
+                        android:id="@+id/userPhoneDisplay"
+                        ></TextView>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:backgroundTint="#FFF"
+                    android:background="@android:color/darker_gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/signin_button"
+                    android:textAlignment="center"
+                    android:text="Manage Your Credentials"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="Display Name"
+                        android:textColor="@color/signin_button">
+                    </TextView>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/signin_button"
+                        android:text="Profile Display Name"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:id="@+id/displayNameEdit"></EditText>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:text="Password"
+                        android:textColor="@color/signin_button">
+                    </TextView>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/signin_button"
+                        android:hint="New Password"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:id="@+id/passwordEdit"></EditText>
+
+                    <Button
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/signin_button"
+                        android:text="Update Profile"
+                        android:textAllCaps="false"
+                        android:layout_marginTop="10dp"
+                        android:elevation="10dp"
+                        android:textColor="@color/signin"
+                        android:id="@+id/updateBtn"></Button>
+                    <View
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:backgroundTint="#FFF"
+                        android:background="@android:color/darker_gray"/>
+
+                    <Button
+                        android:layout_width="220dp"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/signin_button"
+                        android:text="Logout"
+                        android:textAllCaps="false"
+                        android:elevation="20dp"
+                        android:textColor="@color/signin"
+                        android:id="@+id/logoutBtn"></Button>
+                </LinearLayout>
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
