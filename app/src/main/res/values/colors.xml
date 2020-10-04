@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="textColourBlack">#000000</color>
-    <color name="signin">#059EF4</color>
+    <color name="signin">#039dfc</color>
     <color name="signin_button">#ffffff</color>
     <color name="dashboardBackground">#f5fdff</color>
 </resources>
